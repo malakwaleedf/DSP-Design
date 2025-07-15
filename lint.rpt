@@ -1,0 +1,90 @@
+====================================================================================================
+Lint Check Report
+Questa Lint  Version 2021.1 4558100 win64 28-Jan-2021
+
+Timestamp            : Sat Mar  8 03:37:11 2025
+Description          : Report for referring checks count, check violations details, and  design information
+Design               : DSP
+Database             : E:/digital_design_diploma/my_assig_answers/project1/lint.db
+Design Quality Score : 100%
+
+Sections:
+   Section 1 : Check Summary
+   Section 2 : Check Details
+   Section 3 : Design Information
+====================================================================================================
+
+
+====================================================================================================
+Section 1 : Check Summary
+====================================================================================================
+-------------
+| Error (0) |
+-------------
+
+---------------
+| Warning (0) |
+---------------
+
+------------
+| Info (2) |
+------------
+  comment_not_in_english                  : 1
+  multi_ports_in_single_line              : 1
+
+----------------
+| Resolved (0) |
+----------------
+
+
+====================================================================================================
+Section 2 : Check Details
+====================================================================================================
+-------------
+| Error (0) |
+-------------
+
+
+---------------
+| Warning (0) |
+---------------
+
+
+------------
+| Info (2) |
+------------
+
+Check: comment_not_in_english [Category: Nomenclature Style] (1)
+       [Message: Comments include non-English characters. File '<file>', Line '<line>'.]
+-----------------------------------------------------------------------------------------
+comment_not_in_english: [uninspected] Comments include non-English characters. File 'E:/digital_design_diploma/my_assig_answers/assig4/q3/q3_code.v', Line '29'.
+
+
+Check: multi_ports_in_single_line [Category: Rtl Design Style] (1)
+       [Message: Multiple ports are declared in one line. Module '<module>', File '<file>', Line '<line>'.]
+------------------------------------------------------------------------------------------------------------
+multi_ports_in_single_line: [uninspected] Multiple ports are declared in one line. Module 'DSP', File 'E:/digital_design_diploma/my_assig_answers/assig4/q2/q2_code.v', Line '3'.
+    1 more occurrence at: line 5.
+
+
+
+----------------
+| Resolved (0) |
+----------------
+
+
+
+====================================================================================================
+Section 3 : Design Information
+====================================================================================================
+-----------
+| Summary |
+-----------
+  Register Bits                           : 114
+  Latch Bits                              : 0
+  User-specified Blackboxes               : 0
+  Inferred Blackboxes                     : 0
+  Empty Modules                           : 0
+  Unresolved Modules                      : 0
+  Hierarchical IPs                        : 0
+

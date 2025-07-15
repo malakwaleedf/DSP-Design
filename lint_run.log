@@ -1,0 +1,147 @@
+# 
+# Questa Static Verification System
+# Version 2021.1 4558100 win64 28-Jan-2021
+
+log created Sat Mar  8 03:37:26 2025 by Malak Waleed on DESKTOP-P95458O
+
+
+# 
+# Questa Static Verification System
+# Version 2021.1 4558100 win64 28-Jan-2021
+
+log created Sat Mar  8 03:36:43 2025 by Malak Waleed on DESKTOP-P95458O
+
+
+Command: netlist elaborate
+Command arguments:
+    -zdb E:/digital_design_diploma/my_assig_answers/project1/qcache/DB/zdb_1
+    -tool lint
+    -d DSP
+    -L work
+
+Questa Debug flags:
+ 4300:  lint_gui_mode        (Default False)
+
+
+## Elaborating Design...
+Reading MTI mapping for library mapping
+Writing all MTI mappings to vmap output ...
+
+Top level modules:
+	DSP
+
+Analyzing design...
+-- Loading module z0in_work.DSP
+
+Performing 103 Lint Checks
+=============================
+
+Lint Stage 1 of 5 - Pre Design Elaboration (4 checks)
+------------------------------------------------------
+Optimizing 1 design-unit (inlining 0/1 module instances):
+-- Optimizing module z0in_work.DSP(fast)
+Lint Stage-1 100% complete [Total Progress -   7%]
+
+Lint Stage 2 of 5 - Design Elaboration (66 checks)
+---------------------------------------------------
+Optimized design name is zi_opt_def_1201899302_1
+Lint Stage-2 100% complete (1 out of 1 modules checked) [Total Progress -  23%]
+End of log Sat Mar  8 03:36:56 2025
+
+
+# 
+# Questa Static Verification System
+# Version 2021.1 4558100 win64 28-Jan-2021
+
+log created Sat Mar  8 03:37:00 2025 by Malak Waleed on DESKTOP-P95458O
+
+
+Command: netlist create
+Command arguments:
+    -zdb E:/digital_design_diploma/my_assig_answers/project1/qcache/DB/zdb_1
+    -tool lint
+    -d DSP
+    -L work
+
+Questa Debug flags:
+ 4300:  lint_gui_mode        (Default False)
+
+
+## Synthesizing netlist...
+
+Lint Stage 3 of 5 - Post Design Elaboration (17 checks)
+--------------------------------------------------------
+Lint Stage-3  24% complete [Total Progress -  27%]
+Lint Stage-3  47% complete [Total Progress -  29%]
+Lint Stage-3  71% complete [Total Progress -  32%]
+Lint Stage-3  94% complete [Total Progress -  34%]
+Lint Stage-3 100% complete [Total Progress -  35%]
+Analyzing designs.
+Elaborating module 'DSP'.
+
+Lint Stage 4 of 5 - Design Synthesis (1 checks)
+------------------------------------------------
+Lint Stage-4 100% complete [Total Progress -  75%]
+
+Lint Stage 5 of 5 - Post Design Synthesis (15 checks)
+------------------------------------------------------
+Lint Stage-5  20% complete [Total Progress -  88%]
+Lint Stage-5  40% complete [Total Progress -  91%]
+Lint Stage-5  60% complete [Total Progress -  94%]
+Lint Stage-5  80% complete [Total Progress -  97%]
+Lint Stage-5 100% complete [Total Progress - 100%]
+
+Lint Checking Completed
+##Time Taken (Synthesis) = 2769.000000 ticks = 2.769000 secs
+
+End of log Sat Mar  8 03:37:11 2025
+
+
+# Reading design database from E:/digital_design_diploma/my_assig_answers/project1/qcache/LINT/CACHE...completed (0.036 (s)).
+End of log Sat Mar  8 03:37:14 2025
+
+
+# 
+# Questa Static Verification System
+# Version 2021.1 4558100 win64 28-Jan-2021
+
+log created Sat Mar  8 03:37:15 2025 by Malak Waleed on DESKTOP-P95458O
+
+
+Questa Debug flags:
+ 4300:  lint_gui_mode        (Default False)
+
+
+## Applying Lint Waivers...
+Final Process Statistics: Max memory 275MB, CPU time 27s, Total time 32s
+End of log Sat Mar  8 03:37:22 2025
+
+
+Result Summary
+-----------------------------------------------------------
+Error (0)
+-----------------------------------------------------------
+
+-----------------------------------------------------------
+Warning (0)
+-----------------------------------------------------------
+
+-----------------------------------------------------------
+Info (2)
+-----------------------------------------------------------
+  comment_not_in_english                  :1
+  multi_ports_in_single_line              :1
+
+-----------------------------------------------------------
+Resolved (0)
+-----------------------------------------------------------
+
+# Generating Debug Information...
+
+=================================================================
+To view results in batch
+  E:/digital_design_diploma/my_assig_answers/project1/lint.rpt
+
+To view results in GUI (Beta Version) 
+  qverify E:/digital_design_diploma/my_assig_answers/project1/lint.db
+=================================================================
